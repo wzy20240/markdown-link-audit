@@ -1,0 +1,14 @@
+{
+  "name": "markdown-link-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free CLI for checking links in Markdown files",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.mjs README.md"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
